@@ -1,0 +1,100 @@
+[2026-04-22T23:55:52Z] === ENRICH ITERATION 1 START | repo=rubocop/rubocop sha=af802664 ===
+[2026-04-22T23:55:52Z] [iter=1] PHASE START: enrich repo=rubocop/rubocop sha=af802664 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/af802664-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/af8026643d436c4570bf7063a7475e2cad95fd49.nq.gz
+[2026-04-22T23:56:05Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-22T23:56:59Z] [iter=1] AST store loaded triples=5962817 load_secs=52 mem_mb=1045 MB
+[2026-04-22T23:56:59Z] [iter=1] Step 2: Finding LSP targets mem_mb=1045 MB
+[2026-04-22T23:57:36Z] [iter=1] LSP targets found call_sites=110635 imports=0 extends=0 implements=0 secs=37
+[2026-04-22T23:58:07Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1045 MB
+[2026-04-22T23:58:44Z] [iter=1] Position index built positions=361286 nodes_with_types=479789 secs=37 mem_mb=1205 MB
+[2026-04-22T23:58:44Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1205 MB already_completed_types=[] already_completed_files=0
+[2026-04-22T23:58:44Z] [iter=1] Resolving target type target_type=call_site count=110635
+[2026-04-22T23:58:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=0 resolved=0 errors=0 current=spec/rubocop/cop/style/expand_path_arguments_spec.rb
+[2026-04-23T00:02:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.4 files_done=2 resolved=8 errors=83 current=lib/rubocop/cop/internal_affairs/node_pattern_groups.rb
+[2026-04-23T00:05:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.1 files_done=3 resolved=13 errors=178 current=spec/rubocop/cop/style/colon_method_definition_spec.rb
+[2026-04-23T00:13:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.9 files_done=7 resolved=21 errors=372 current=spec/rubocop/cop/layout/line_length_spec.rb
+[2026-04-23T00:19:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.9 files_done=8 resolved=21 errors=375 current=spec/rubocop/cli/autocorrect_spec.rb
+[2026-04-23T00:26:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.6 files_done=9 resolved=171 errors=524 current=spec/rubocop/cop/utils/format_string_spec.rb
+[2026-04-23T00:28:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.9 files_done=10 resolved=171 errors=583 current=lib/rubocop/cop/mixin/trailing_comma.rb
+[2026-04-23T00:33:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.8 files_done=11 resolved=177 errors=707 current=spec/rubocop/cop/style/redundant_condition_spec.rb
+[2026-04-23T00:38:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.0 files_done=14 resolved=182 errors=839 current=spec/rubocop/cop/style/endless_method_spec.rb
+[2026-04-23T00:41:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.8 files_done=16 resolved=187 errors=909 current=spec/rubocop/cop/style/quoted_symbols_spec.rb
+[2026-04-23T00:42:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.5 files_done=19 resolved=194 errors=926 current=spec/rubocop/cop/variable_force/variable_table_spec.rb
+[2026-04-23T00:43:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.6 files_done=22 resolved=226 errors=954 current=lib/rubocop/cop/layout/end_alignment.rb
+[2026-04-23T00:46:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=50.1 files_done=23 resolved=230 errors=1018 current=spec/rubocop/cop/style/redundant_format_spec.rb
+[2026-04-23T00:51:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.6 files_done=26 resolved=248 errors=1157 current=spec/rubocop/cop/style/case_like_if_spec.rb
+[2026-04-23T01:00:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=65.0 files_done=28 resolved=309 errors=1216 current=lib/rubocop/cop/style/trailing_underscore_variable.rb
+[2026-04-23T01:03:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.4 files_done=29 resolved=314 errors=1277 current=spec/rubocop/cop/layout/indentation_consistency_spec.rb
+[2026-04-23T01:03:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=67.9 files_done=32 resolved=321 errors=1288 current=spec/rubocop/cop/variable_force/assignment_spec.rb
+[2026-04-23T01:05:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=69.2 files_done=36 resolved=329 errors=1319 current=spec/rubocop/cop/internal_affairs/example_description_spec.rb
+[2026-04-23T01:06:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=70.4 files_done=39 resolved=334 errors=1349 current=spec/rubocop/cop/lint/empty_conditional_body_spec.rb
+[2026-04-23T01:15:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=79.6 files_done=43 resolved=346 errors=1582 current=spec/rubocop/cop/layout/space_before_block_braces_spec.rb
+[2026-04-23T01:17:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=81.6 files_done=48 resolved=351 errors=1631 current=spec/rubocop/cop/message_annotator_spec.rb
+[2026-04-23T01:19:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=83.7 files_done=50 resolved=365 errors=1683 current=spec/rubocop/cop/style/redundant_regexp_argument_spec.rb
+[2026-04-23T01:26:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=91.0 files_done=56 resolved=394 errors=1854 current=spec/rubocop/cop/style/dir_empty_spec.rb
+[2026-04-23T01:28:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=92.8 files_done=59 resolved=396 errors=1900 current=lib/rubocop/comment_config.rb
+[2026-04-23T01:33:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=97.9 files_done=60 resolved=408 errors=2027 current=spec/rubocop/cop/layout/space_inside_array_literal_brackets_spec.rb
+[2026-04-23T01:36:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=100.4 files_done=62 resolved=425 errors=2091 current=spec/rubocop/cop/lint/suppressed_exception_in_number_conversion_spec.rb
+[2026-04-23T01:42:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=106.6 files_done=64 resolved=432 errors=2246 current=lib/rubocop/cop/gemspec/required_ruby_version.rb
+[2026-04-23T01:43:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=107.6 files_done=65 resolved=438 errors=2272 current=spec/rubocop/cop/layout/argument_alignment_spec.rb
+[2026-04-23T01:44:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=108.6 files_done=67 resolved=447 errors=2294 current=lib/rubocop/cop/mixin/visibility_help.rb
+[2026-04-23T01:45:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=109.5 files_done=68 resolved=455 errors=2318 current=lib/rubocop/cop/style/predicate_with_kind.rb
+[2026-04-23T01:46:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=110.4 files_done=69 resolved=462 errors=2340 current=lib/rubocop/cop/lint/utils/nil_receiver_checker.rb
+[2026-04-23T01:48:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=112.9 files_done=70 resolved=464 errors=2403 current=lib/rubocop/cop/style/redundant_string_escape.rb
+[2026-04-23T01:52:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=116.2 files_done=71 resolved=467 errors=2488 current=spec/rubocop/cop/layout/comment_indentation_spec.rb
+[2026-04-23T01:55:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=119.2 files_done=73 resolved=471 errors=2563 current=lib/rubocop/cop/style/invertible_unless_condition.rb
+[2026-04-23T01:58:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=122.1 files_done=74 resolved=473 errors=2638 current=spec/rubocop/file_finder_spec.rb
+[2026-04-23T01:59:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=123.4 files_done=78 resolved=508 errors=2669 current=spec/rubocop/rake_task_spec.rb
+[2026-04-23T02:00:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=124.3 files_done=79 resolved=522 errors=2690 current=lib/rubocop/cop/lint/syntax.rb
+[2026-04-23T02:01:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=125.6 files_done=80 resolved=522 errors=2723 current=lib/rubocop/cop/layout/closing_heredoc_indentation.rb
+[2026-04-23T02:03:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=127.2 files_done=81 resolved=525 errors=2764 current=spec/rubocop/cop/lint/underscore_prefixed_variable_name_spec.rb
+[2026-04-23T02:03:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=128.1 files_done=86 resolved=555 errors=2782 current=spec/rubocop/cop/style/select_by_range_spec.rb
+[2026-04-23T02:04:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=129.0 files_done=87 resolved=555 errors=2805 current=lib/rubocop/cop/lint/constant_reassignment.rb
+[2026-04-23T02:07:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=131.4 files_done=88 resolved=558 errors=2867 current=spec/rubocop/config_regeneration_spec.rb
+[2026-04-23T02:10:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=134.1 files_done=91 resolved=560 errors=2935 current=lib/rubocop/lsp/server.rb
+[2026-04-23T02:10:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=135.0 files_done=92 resolved=567 errors=2956 current=spec/rubocop/cop/team_spec.rb
+[2026-04-23T02:12:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=136.9 files_done=93 resolved=572 errors=3002 current=spec/rubocop/cop/style/bare_percent_literals_spec.rb
+[2026-04-23T02:19:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=144.0 files_done=95 resolved=574 errors=3183 current=lib/rubocop/result_cache.rb
+[2026-04-23T02:22:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=146.4 files_done=96 resolved=620 errors=3243 current=spec/rubocop/cop/style/open_struct_use_spec.rb
+[2026-04-23T02:24:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=148.2 files_done=100 resolved=629 errors=3286 current=spec/rubocop/cop/style/if_with_boolean_literal_branches_spec.rb
+[2026-04-23T02:24:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=149.1 files_done=103 resolved=638 errors=3308 current=spec/rubocop/cop/lint/unmodified_reduce_accumulator_spec.rb
+[2026-04-23T02:25:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=149.7 files_done=108 resolved=642 errors=3323 current=spec/rubocop/server/cli_spec.rb
+[2026-04-23T02:27:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=151.5 files_done=109 resolved=643 errors=3367 current=spec/rubocop/cop/cop_spec.rb
+[2026-04-23T02:28:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=152.4 files_done=110 resolved=657 errors=3388 current=lib/rubocop/cop/style/symbol_proc.rb
+[2026-04-23T02:31:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=156.1 files_done=111 resolved=668 errors=3482 current=spec/rubocop/formatter/fuubar_style_formatter_spec.rb
+[2026-04-23T02:32:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=156.7 files_done=113 resolved=675 errors=3497 current=lib/rubocop/cop/lint/percent_string_array.rb
+[2026-04-23T02:33:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=157.5 files_done=114 resolved=677 errors=3519 current=spec/rubocop/cop/style/redundant_self_spec.rb
+[2026-04-23T02:36:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=160.3 files_done=117 resolved=721 errors=3589 current=lib/rubocop/server/server_command.rb
+[2026-04-23T02:42:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=166.1 files_done=120 resolved=726 errors=3736 current=lib/rubocop/cop/style/arguments_forwarding.rb
+[2026-04-23T02:47:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=172.1 files_done=121 resolved=740 errors=3887 current=lib/rubocop.rb
+[2026-04-23T02:49:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=173.3 files_done=124 resolved=1553 errors=3914 current=spec/rubocop/cop/alignment_corrector_spec.rb
+[2026-04-23T02:49:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=173.9 files_done=130 resolved=1566 errors=3928 current=lib/rubocop/cop/style/guard_clause.rb
+[2026-04-23T02:55:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=179.4 files_done=131 resolved=1571 errors=4069 current=spec/rubocop/magic_comment_spec.rb
+[2026-04-23T02:57:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=181.4 files_done=133 resolved=1576 errors=4118 current=spec/rubocop/cop/style/if_with_semicolon_spec.rb
+[2026-04-23T03:01:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=185.3 files_done=135 resolved=1596 errors=4216 current=lib/rubocop/cop/style/ambiguous_endless_method_definition.rb
+[2026-04-23T03:04:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=188.8 files_done=137 resolved=1604 errors=4304 current=spec/rubocop/cop/style/map_join_spec.rb
+[2026-04-23T03:11:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=196.1 files_done=142 resolved=1607 errors=4488 current=lib/rubocop/ext/regexp_node.rb
+[2026-04-23T03:12:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=196.7 files_done=144 resolved=1614 errors=4504 current=spec/rubocop/cop/lint/script_permission_spec.rb
+[2026-04-23T03:14:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=199.1 files_done=146 resolved=1638 errors=4564 current=spec/rubocop/cop/lint/constant_resolution_spec.rb
+[2026-04-23T03:17:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=201.3 files_done=148 resolved=1645 errors=4620 current=spec/rubocop/formatter/formatter_set_spec.rb
+[2026-04-23T03:17:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=202.1 files_done=149 resolved=1653 errors=4639 current=lib/rubocop/cop/style/stderr_puts.rb
+[2026-04-23T03:18:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=202.6 files_done=150 resolved=1658 errors=4653 current=lib/rubocop/cop/internal_affairs/location_exists.rb
+[2026-04-23T03:19:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=203.9 files_done=151 resolved=1666 errors=4686 current=spec/rubocop/cli/auto_gen_config_spec.rb
+[2026-04-23T03:23:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=207.8 files_done=152 resolved=1791 errors=4779 current=lib/rubocop/mcp/server.rb
+[2026-04-23T03:25:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=209.6 files_done=153 resolved=1805 errors=4825 current=spec/rubocop/cop/lint/literal_in_interpolation_spec.rb
+[2026-04-23T03:27:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=211.6 files_done=157 resolved=1808 errors=4874 current=lib/rubocop/cop/gemspec/duplicated_assignment.rb
+[2026-04-23T03:28:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=212.8 files_done=158 resolved=1820 errors=4905 current=lib/rubocop/cop/style/method_call_without_args_parentheses.rb
+[2026-04-23T03:30:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=215.1 files_done=159 resolved=1823 errors=4962 current=spec/rubocop/cop/layout/multiline_hash_brace_layout_spec.rb
+[2026-04-23T03:37:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=221.5 files_done=161 resolved=1832 errors=5125 current=spec/rubocop/cop/style/redundant_regexp_escape_spec.rb
+[2026-04-23T03:38:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=222.6 files_done=166 resolved=1834 errors=5148 current=spec/rubocop/cop/layout/empty_lines_around_begin_body_spec.rb
+[2026-04-23T03:40:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=224.7 files_done=168 resolved=1847 errors=5201 current=spec/rubocop/cop/lint/useless_assignment_spec.rb
+[2026-04-23T03:41:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=225.7 files_done=171 resolved=1853 errors=5223 current=spec/rubocop/cop/gemspec/add_runtime_dependency_spec.rb
+[2026-04-23T03:44:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=228.6 files_done=178 resolved=1875 errors=5293 current=lib/rubocop/cop/correctors/for_to_each_corrector.rb
+[2026-04-23T03:45:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=229.6 files_done=179 resolved=1878 errors=5317 current=spec/rubocop/cop/naming/variable_number_spec.rb
+[2026-04-23T03:47:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=231.9 files_done=181 resolved=1887 errors=5375 current=spec/rubocop/target_ruby_spec.rb
+[2026-04-23T03:50:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=234.2 files_done=184 resolved=1901 errors=5431 current=lib/rubocop/cop/gemspec/ordered_dependencies.rb
+[2026-04-23T03:50:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=234.7 files_done=185 resolved=1907 errors=5444 current=spec/rubocop/cop/metrics/module_length_spec.rb
+[2026-04-23T03:54:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=238.4 files_done=187 resolved=1911 errors=5538 current=lib/rubocop/cop/style/fetch_env_var.rb
+[2026-04-23T03:56:06Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.2 files_completed=187 new_files_this_iter=187 mem_mb=1211 MB
+[2026-04-23T03:56:06Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/af8026643d436c4570bf7063a7475e2cad95fd49.nq.gz triples=68156
+[2026-04-23T03:56:08Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-04-23T03:56:08Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14414 elapsed_min=240.2 files_completed=187
